@@ -41,9 +41,12 @@ class Plugin {
 	 * Register blocks from the build directory.
 	 */
 	public function register_blocks() {
-		$block_dir = dirname( __DIR__ ) . '/blocks/build/pricing-table';
-		if ( file_exists( $block_dir . '/block.json' ) ) {
-			register_block_type( $block_dir );
+		$blocks = array( 'pricing-table', 'pricing-column' );
+		foreach ( $blocks as $block ) {
+			$block_dir = dirname( __DIR__ ) . '/blocks/build/' . $block;
+			if ( file_exists( $block_dir . '/block.json' ) ) {
+				register_block_type( $block_dir );
+			}
 		}
 	}
 }

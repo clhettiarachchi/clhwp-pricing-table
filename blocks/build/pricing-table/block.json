@@ -13,6 +13,9 @@
       "full"
     ]
   },
+  "allowedBlocks": [
+    "clh/pricing-column"
+  ],
   "textdomain": "clhwp-pricing",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
