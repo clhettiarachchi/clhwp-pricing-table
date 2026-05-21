@@ -5,7 +5,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<div { ...useBlockProps() }>
-			<p>{ __( 'This is the pricing table', 'clh-pricing' ) }</p>
+			<p>{ __( 'This is the pricing table', 'clhwp-pricing' ) }</p>
 		</div>
 	);
 }

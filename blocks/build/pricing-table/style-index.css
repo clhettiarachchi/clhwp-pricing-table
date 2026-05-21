@@ -1,1 +1,13 @@
-.clh-pricing-table{background-color:#f9f9f9;border:1px solid #e2e8f0;border-radius:8px;font-family:sans-serif;padding:20px;text-align:center}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/src/pricing-table/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.clh-pricing-table {
+  background-color: #f9f9f9;
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

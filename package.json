@@ -1,8 +1,8 @@
 {
-  "name": "clhdp-pricing-table",
+  "name": "clhwp-pricing-table",
   "version": "1.0.0",
   "description": "WordPress Dynamic Pricing Table block suite.",
-  "main": "clhdp-pricing-table.php",
+  "main": "clhwp-pricing-table.php",
   "scripts": {
     "build": "wp-scripts build --webpack-src-dir=blocks/src --webpack-copy-php --output-path=blocks/build",
     "start": "wp-scripts start --webpack-src-dir=blocks/src --webpack-copy-php --output-path=blocks/build"

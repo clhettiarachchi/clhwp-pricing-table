@@ -13,5 +13,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 $block_props = get_block_wrapper_attributes( array( 'class' => 'clh-pricing-table' ) );
 ?>
 <div <?php echo $block_props; ?>>
-	<p><?php echo esc_html__( 'This is the pricing table', 'clh-pricing' ); ?></p>
+	<p><?php echo esc_html__( 'This is the pricing table', 'clhwp-pricing' ); ?></p>
 </div>

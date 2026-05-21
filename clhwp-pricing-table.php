@@ -3,9 +3,9 @@
  * Plugin Name:       CLH Pricing Table Suite
  * Description:       A highly flexible, scalable dynamic Pricing Table block built for managed web applications.
  * Version:           1.0.0
- * Author:            CLH Dev Partners
+ * Author:            Chandika Lakshan
  * License:           GPL-2.0-or-later
- * Text Domain:       clh-pricing
+ * Text Domain:       clhwp-pricing
  * Domain Path:       /languages
  */
 
