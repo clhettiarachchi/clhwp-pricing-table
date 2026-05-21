@@ -1,1 +1,0 @@
-{"version":3,"file":"pricing-table/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://clhwp-pricing-table/./blocks/src/pricing-table/editor.scss"],"sourcesContent":[".wp-block-clh-pricing-table {\n\tborder: 2px dashed #3b82f6;\n}\n"],"names":[],"sourceRoot":""}
