@@ -2,7 +2,7 @@
 /**
  * Dynamic Pricing Column Render Template.
  *
- * @package CLHDevPartners\PricingTableSuite
+ * @package CLHWP\PricingTableSuite
  */
 
 // Prevent direct access

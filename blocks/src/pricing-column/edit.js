@@ -1,7 +1,7 @@
 /**
  * CLH Pricing Table Suite -- Pricing Column block edit component.
  *
- * @package CLHDevPartners\PricingTableSuite
+ * @package CLHWP\PricingTableSuite
  */
 
 import { useBlockProps, RichText, InspectorControls } from '@wordpress/block-editor';

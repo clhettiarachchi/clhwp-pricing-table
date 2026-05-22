@@ -52,7 +52,7 @@ The parent block's sole job on the server side is to structure the wrapper layou
 <?php
 /**
  * Parent Pricing Table Server-Side Template.
- * Namespace: CLHDevPartners\PricingTableSuite
+ * Namespace: CLHWP\PricingTableSuite
  */
 
 $wrapper_classes = 'clh-pricing-table-container';

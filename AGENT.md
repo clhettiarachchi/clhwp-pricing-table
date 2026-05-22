@@ -19,7 +19,7 @@
 You must operate exclusively within this technical stack and directory map:
 
 ### Backend Architecture (PHP)
-- **Standards:** Object-Oriented PHP adhering to PSR-4 namespacing standards (`CLHDevPartners\PricingTableSuite\...`).
+- **Standards:** Object-Oriented PHP adhering to PSR-4 namespacing standards (`CLHWP\PricingTableSuite\...`).
 - **Data & Registration:** Read block parameters directly from client-side definitions using core block registration wrappers. Lean on metadata metadata arrays rather than rigid server configurations.
 
 ### Frontend UI Layer (React & JS)

@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Register Custom Autoloader mapping to WordPress standard class-prefix
 spl_autoload_register( function ( $class ) {
-	$prefix = 'CLHDevPartners\\PricingTableSuite\\';
+	$prefix = 'CLHWP\\PricingTableSuite\\';
 	$base_dir = __DIR__ . '/includes/';
 
 	$len = strlen( $prefix );
@@ -37,5 +37,5 @@ spl_autoload_register( function ( $class ) {
 
 // Initialize the plugin
 add_action( 'plugins_loaded', function () {
-	\CLHDevPartners\PricingTableSuite\Plugin::get_instance();
+	\CLHWP\PricingTableSuite\Plugin::get_instance();
 } );

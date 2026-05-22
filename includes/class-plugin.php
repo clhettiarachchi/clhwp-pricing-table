@@ -1,5 +1,5 @@
 <?php
-namespace CLHDevPartners\PricingTableSuite;
+namespace CLHWP\PricingTableSuite;
 
 // Prevent direct access
 if ( ! defined( 'ABSPATH' ) ) {
