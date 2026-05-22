@@ -5,25 +5,43 @@ import './editor.scss';
 const ALLOWED_BLOCKS = [ 'clh/pricing-column' ];
 const TEMPLATE = [
 	[ 'clh/pricing-column', { 
-		title: 'Starter', 
+		title: 'Basic', 
 		price: '$29', 
-		description: 'Perfect for individuals starting out.',
-		features: [ 'Basic support', '1 Project', '10GB Storage' ],
-		buttonText: 'Get Started'
+		description: 'A simple option for getting started.',
+		features: [
+			'Feature One',
+			'Feature Two',
+			'Feature Three',
+			'Feature Four'
+		],
+		buttonText: 'Get Started',
+		buttonUrl: '#'
 	} ],
 	[ 'clh/pricing-column', { 
-		title: 'Professional', 
+		title: 'Standard', 
+		price: '$59', 
+		description: 'A balanced option for regular use.',
+		features: [
+			'Everything in Basic',
+			'Additional Feature',
+			'Priority Access',
+			'Extended Support'
+		],
+		buttonText: 'Choose Plan',
+		buttonUrl: '#'
+	} ],
+	[ 'clh/pricing-column', { 
+		title: 'Premium', 
 		price: '$99', 
-		description: 'The most popular option for growing teams.',
-		features: [ 'Priority support', '10 Projects', '100GB Storage', 'Analytics dashboard' ],
-		buttonText: 'Try for Free'
-	} ],
-	[ 'clh/pricing-column', { 
-		title: 'Enterprise', 
-		price: '$299', 
-		description: 'Tailored features for large scale operations.',
-		features: [ '24/7 dedicated support', 'Unlimited projects', '1TB Storage', 'Custom integrations' ],
-		buttonText: 'Contact Sales'
+		description: 'An advanced option with full access.',
+		features: [
+			'Everything in Standard',
+			'Advanced Features',
+			'Premium Support',
+			'Unlimited Access'
+		],
+		buttonText: 'Contact Us',
+		buttonUrl: '#'
 	} ]
 ];
 
