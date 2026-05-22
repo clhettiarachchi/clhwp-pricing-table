@@ -14,28 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-// Register Custom Autoloader mapping to WordPress standard class-prefix
-spl_autoload_register( function ( $class ) {
-	$prefix = 'CLHWP\\PricingTableSuite\\';
-	$base_dir = __DIR__ . '/includes/';
+// Load plugin classes.
+require_once __DIR__ . '/includes/class-plugin.php';
 
-	$len = strlen( $prefix );
-	if ( strncmp( $prefix, $class, $len ) !== 0 ) {
-		return;
-	}
-
-	$relative_class = substr( $class, $len );
-	// Map namespace parts to WordPress class naming files (e.g. Plugin -> class-plugin.php)
-	$parts = explode( '\\', $relative_class );
-	$class_file = strtolower( str_replace( '_', '-', array_pop( $parts ) ) );
-	$file = $base_dir . implode( '/', $parts ) . ( empty( $parts ) ? '' : '/' ) . 'class-' . $class_file . '.php';
-
-	if ( file_exists( $file ) ) {
-		require $file;
-	}
-} );
-
-// Initialize the plugin
-add_action( 'plugins_loaded', function () {
-	\CLHWP\PricingTableSuite\Plugin::get_instance();
-} );
+// Initialize the plugin.
+add_action( 'plugins_loaded', array( 'CLHWP\PricingTableSuite\Plugin', 'get_instance' ) );
